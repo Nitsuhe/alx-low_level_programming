@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *   * main - C variables
+ * main - C variables
  *
  * Return: Always (Success)
  */
@@ -23,17 +23,17 @@ int main(void)
 						putchar(i);
 						putchar(' ');
 						putchar(k);
-						putchar(j);
-	
+						putchaar(j);
+
 						if (c + i + k + j == 227 && c == 57)
-					{
-						break;
-					}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
+						{
+							break;
+						}
+						else
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
