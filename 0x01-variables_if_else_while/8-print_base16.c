@@ -3,21 +3,20 @@
 /**
  * main - C variables
  *
- * Return: Always (Success);
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int c;
+	char c;
 
 	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
+	}
 
-		if (c != '9')
-		{
-			putchar(',');
-			putchar(' ');
-		}
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
 	}
 
 	putchar('\n');

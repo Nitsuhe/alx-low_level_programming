@@ -1,25 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabetic in lower and upper case
+ * main - C variables
  *
  * Return: Always (Success)
  */
 int main(void)
 {
-	char d;
+	char c;
 
-	for (d = 'a'; d <= 'z'; d++)
-	{
-		putchar(d);
-	}
-
-	for (d = 'A'; d <= 'Z'; d++)
-	{
-		putchar(d);
-	}
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
 	putchar('\n');
-
 	return (0);
 }
