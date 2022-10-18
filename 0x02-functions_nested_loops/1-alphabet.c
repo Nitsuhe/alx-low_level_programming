@@ -1,13 +1,18 @@
 #include "main.h"
 
 /**
- *  * main - alphabet
- *   *
- *    * Return: Always 0.
- *     */
-int main(void)
+ * print_alphabet - alphabet
+ *
+ * Return: Always 0
+ */
+void print_alphabet(void)
 {
+	char alpha;
 
-	    print_alphabet();
-	        return (0);
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		_putchar(alpha);
+
+	_puchar('\n');
+
+	return (0);
 }
