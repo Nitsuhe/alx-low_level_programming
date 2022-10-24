@@ -50,5 +50,5 @@ int main(void)
 
 	printf("%s", password);
 
-	retorn (0);
+	return (0);
 }
